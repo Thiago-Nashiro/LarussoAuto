@@ -1,0 +1,99 @@
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    position: top;
+    
+  }
+  
+.navbar img {
+  display: block;
+  vertical-align: top;
+  width:90px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 5;  
+}
+  .navbar .item {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 40px;
+      
+  }
+  
+  
+  .navbar a:hover {
+    background:darkgrey;
+    color:#000000;
+  }
+  .navbar-nav > .active > a { 
+    background-color: red ; 
+}
+
+.iframe{
+    align-items: center;
+    margin-left: 25%;
+}
+.footer footer{
+    text-align: center;
+    background: #73C8A9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    color: white;
+}
+.footer footer:hover{
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body{
+    background: #ffdb4d;
+}
+.logo{
+    width: 70%;
+    margin-left: 40%;
+    
+}
+
+.logo a,strong{
+    
+    font-size: 700%;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+  .aula, .aula,.descr{
+    
+    align-items: center;
+    width: 40%;
+    margin-left: 20%;
+    border: 3vmin;
+    margin-right: 4px;
+  }
+  .contato{
+      text-align: center;
+  }
